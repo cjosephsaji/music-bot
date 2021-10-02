@@ -1,10 +1,4 @@
 from discord.ext import commands
-import datetime
-from discord.ext.commands.errors import CommandNotFound
-import requests
-from time import sleep
-from discord_components import DiscordComponents, Button, ButtonStyle
-from discord.ext.commands import has_permissions, MissingPermissions
 import discord
 from music import Player
 import os
@@ -12,7 +6,6 @@ import os
 intents = discord.Intents.default()
 intents.members = True
 bot = commands.Bot(command_prefix='-', intents=intents)
-bot.remove_command('help')
 
 @bot.event
 async def on_ready():
