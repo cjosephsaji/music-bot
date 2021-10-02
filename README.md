@@ -1,1 +1,1 @@
-# music-bot
+# LAME MUSIC BOT
