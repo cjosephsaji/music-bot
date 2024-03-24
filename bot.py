@@ -18,4 +18,4 @@ async def setup():
 
 bot.loop.create_task(setup())
 
-bot.run('ODQ3MTI3NDE0NjU1ODExNjI0.YK5i4g.AS17JhYU64PLQ1-Z4wb62A2rbpw')
+bot.run('TOKEN')
